@@ -90,10 +90,10 @@ handleCpsMessage(text, msg)          <- src/plugins/cps/index.js
   │    流程: 签名 → 请求活动列表 → 按关键词匹配 → 返回推广链接
   │
   └─ 订单侠模式？
-       ├─ 淘口令 → /tbk/tbk_wn_convert
-       ├─ 京东链接 → /jd/jd_by_unionid_promotion_common_get
-       ├─ 拼多多链接 → /pdd/pdd_ddk_goods_promotion_url_generate
-       └─ "查券 xxx" → /tbk/tbk_super_search_material
+       ├─ 淘口令 → /tbk/wn_convert
+       ├─ 京东链接 → /jd/by_unionid_promotion
+       ├─ 拼多多链接 → /pdd/convert
+       └─ "查券 xxx" → /tbk/super_search_material
 ```
 
 ## 模块划分

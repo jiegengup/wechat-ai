@@ -85,10 +85,10 @@ AI 聊天（消耗积分）→ 每条 -10 积分
 - API：GET /activities，HMAC-SHA256 签名认证，10 分钟缓存
 
 #### 4.3.2 订单侠（电商聚合）
-- 淘口令转链：正则匹配 → tbk_wn_convert 接口
-- 京东转链：链接含 jd.com → jd_by_unionid_promotion_common_get 接口
-- 拼多多转链：链接含 pinduoduo.com → pdd_ddk_goods_promotion_url_generate 接口
-- 搜索优惠券：用户发「查券 xxx」→ tbk_super_search_material 接口
+- 淘口令转链：正则匹配 → wn_convert (点卡) / tc_general_convert (套餐) 接口
+- 京东转链：链接含 jd.com → by_unionid_promotion 接口
+- 拼多多转链：链接含 pinduoduo.com → pdd/convert 接口
+- 搜索优惠券：用户发「查券 xxx」→ super_search_material 接口
 
 #### 4.3.3 定时推送
 - 每天 10:30 / 16:30 推送外卖红包

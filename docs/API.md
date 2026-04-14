@@ -168,10 +168,10 @@ Base URL: `http://open.wandanlianmeng.com/api/v1/open-api`
 
 | 接口 | 方法 | 路径 | 说明 |
 |------|------|------|------|
-| 淘宝转链 | POST | `tbk/tbk_wn_convert` | 淘口令转推广链接 |
-| 优惠券搜索 | GET | `tbk/tbk_super_search_material` | 关键词搜索 |
-| 京东转链 | GET | `jd/jd_by_unionid_promotion_common_get` | 京东链接转链 |
-| 拼多多转链 | GET | `pdd/pdd_ddk_goods_promotion_url_generate` | 拼多多链接转链 |
+| 淘宝转链 | POST | `tbk/wn_convert` | 淘口令转推广链接 |
+| 优惠券搜索 | GET | `tbk/super_search_material` | 关键词搜索 |
+| 京东转链 | GET | `jd/by_unionid_promotion` | 京东链接转链 |
+| 拼多多转链 | GET | `pdd/convert` | 拼多多链接转链 |
 
 Base URL: `http://api.tbk.dingdanxia.com`
 认证: URL 参数 `apikey=xxx`
